@@ -1,0 +1,95 @@
+body {
+    background-color: #CA87BA; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 420px;
+    border: 1px solid #ffcccc;
+}
+
+h2 {
+    font-size: 16px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.desing-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.desing-inputs input {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.buttons-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons-area button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttons-area button:hover {
+    background-color: #e0e0e0;
+}
+
+.areadohistorico {
+    border: 1px solid #dcdcdc;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.areadohistorico label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#conteudodohistorico {
+    min-height: 100px;
+    max-height: 150px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#conteudodohistorico p {
+    margin: 0;
+    padding: 4px 6px;
+    background-color: #eee;
+    border-radius: 3px;
+}
